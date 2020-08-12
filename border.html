@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border radios change</title>
+    <script src="handler.js"></script>
+    <script src="copyToClipboard.js"></script>
+  </head>
+  
+  <link rel="stylesheet" href="handle.css">
+  <body>
+    
+    <div class="outer-wrapper">
+    <div class="upper">
+      <input type="number" name="tl" onchange="handleChange(event)" min="0" />
+      <input type="number" class="topright" name="tr" onchange="handleChange(event)" min="0"/>
+    </div>
+    
+    <div id="border-radius"class="center-div">
+        
+    </div>
+
+    <div class="bottom">
+      <input type="number" name="bl" id="" onchange="handleChange(event)"  min="0"/>
+      <input type="number" class="bootomright" name="br" onchange="handleChange(event)" min="0"/>
+    </div>
+    <div class="clipdiv"><button class="" onclick="copyToClipboard()">Copy to clipboard</button> </div>
+</div>
+  </body>
+</html>

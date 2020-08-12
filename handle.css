@@ -1,0 +1,39 @@
+.center-div {
+  height: 40%;
+  width: 60%;
+  border: 2px solid red;
+  margin: 0 auto;
+  white-space: pre;
+}
+
+.topright, .bootomright {
+  float: right;
+}
+
+.clipdiv {
+  text-align: center;
+}
+
+.outer-wrapper {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 7rem;
+}
+
+input {
+    width: 9%;
+}
+
+.inner-div{
+    border: 2px solid rebeccapurple;
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
